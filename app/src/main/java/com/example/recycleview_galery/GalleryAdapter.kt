@@ -3,7 +3,7 @@ package com.example.recycleview_galery
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.recycleview_galery.databinding.ItemGalleryBinding
+import com.example.receycleview_galery.databinding.ItemGalleryBinding
 
 class GalleryAdapter (private val listGallery: List<Gallery>) : RecyclerView.Adapter<GalleryAdapter.ItemGalleryViewHolder>() {
     inner class ItemGalleryViewHolder(private val binding: ItemGalleryBinding) : RecyclerView.ViewHolder(binding.root) {
